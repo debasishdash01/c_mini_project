@@ -1,0 +1,18 @@
+The for loop gathers all three actions (initializing, testing, and updating) into one place.
+The for statement uses three control expressions, separated by semicolons, to control a
+looping process. The initialize expression is executed once, before any of the loop statements
+are executed. Then the test expression is evaluated and, if it is true (or nonzero), the
+loop is cycled through once. Then the update expression is evaluated, and it is time to check
+the test expression again. The for statement is an entry-condition loop—the decision to go
+through one more pass of the loop is made before the loop is traversed. Therefore, it is possible
+that the loop is never traversed. The statement part of the form can be a simple statement
+or a compound statement.
+
+The syntax of a for loop in C programming language is -
+
+for ( init; condition; increment )
+{
+   statement(s);
+}
+
+The loop is repeated until test becomes false or zero.

@@ -1,0 +1,11 @@
+Character Set-It represents alphabets,digit or any symbol used to represent information.
+Ex-Uppercase Characters(A,B,C...Y,Z)
+   Lowercase Characters(a,b,c,..y,z)
+   Digits(0,1,2,...9)
+   Special Symbols(@,#,*...)
+   White Spaces(Single Space,Tab,New Line)
+Token-Smallest unit in a program
+Identifiers-A symbolic name used to refer a variable,constant etc
+Keywords-Keywords are the reserved words whose meaning has already been explained to the C compiler.
+Data Type-Data type means the type of value a variable will have.
+"C:"

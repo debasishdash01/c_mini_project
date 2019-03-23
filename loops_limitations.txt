@@ -1,0 +1,7 @@
+For Loop Limitation
+-------------------
+
+
+The main limitation of using for loop is that you can not use when the number of iterations are unknown. For-loops are used only when the number of iterations is known before entering the loop. For-loops are the shorthand way to make loops when the number of iterations is known, as every for-loop could be written as a while-loop.
+
+D

@@ -1,0 +1,11 @@
+The while loop and the for loop are both entry-condition loops. The test condition is checked
+before each iteration of the loop, so it is possible for the statements in the loop to never
+execute. C also has an exit-condition loop, in which the condition is checked after each iteration
+of the loop, guaranteeing that statements are executed at least once. This variety is called a
+do while loop.
+Here is the general form of the do while loop:
+do
+statement
+while ( expression );
+The statement can be simple or compound. Note that the do while loop itself counts as a
+statement and, therefore, requires a terminating semicolon.

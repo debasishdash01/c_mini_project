@@ -1,0 +1,8 @@
+The versatility of the computer lies in its ability to perform a set of
+instructions repeatedly. This involves repeating some portion of
+the program either a specified number of times or until a particular
+condition is being satisfied. This repetitive operation is done through a loop control instructions.
+There are three methods:
+ a)Using for Loop
+ b)Using a while Loop
+ c)Using a do-while Loop

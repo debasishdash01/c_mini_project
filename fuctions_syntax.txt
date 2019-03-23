@@ -1,0 +1,41 @@
+Function definition format
+return-value-type  function-name( parameter-list )
+{   
+  declarations and statements 
+} 
+
+
+Function-name: any valid identifier
+Return-value-type: data type of the result (default int)
+void – indicates that the function returns nothing
+Parameter-list: comma separated list, declares parameters
+A type must be listed explicitly for each parameter unless, the default parameter is of type int
+Definitions and statements: function body (block)
+Variables can be defined inside blocks (can be nested)
+Functions can not be defined inside other functions
+Returning control
+If nothing returned 
+return; 
+or, until reaches right brace at the end of function.
+If something returned 
+return expression;
+
+Example
+-------
+
+#include <stdio.h> 
+int square(int y); // function prototype
+int main()
+{
+   int x; //counter
+   for ( x = 1; x <= 10; ++x) {
+      printf( "%d  ", square(x));  //function call
+   } //end for
+	puts(" ");
+} //end main
+
+int square( int y ) // function definition
+{                                                                   
+   return y * y;  //returns the square of y as an int              
+}
+

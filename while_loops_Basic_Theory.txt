@@ -1,0 +1,16 @@
+The while loop is a conditional loop using an entry condition. It is called “conditional” because
+the execution of the statement portion depends on the condition described by the test expression.
+The expression is an entry condition because the condition must be
+met before the body of the loop is entered.
+while ( expression )
+statement
+The statement portion is repeated until the expression becomes false or 0.
+
+Examples:
+while (n++ < 100)
+printf(" %d %d\n",n, 2 * n + 1); // single statement
+while (fargo < 1000)
+{ // compound statement
+fargo = fargo + step;
+step = 2 * step;
+}
